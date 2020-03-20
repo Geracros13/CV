@@ -1,11 +1,6 @@
 body{
     font-family:'Sen', sans-serif;
 }
-*{
-    box-sizing: border-box;
-}
-
-
 
 /* Header */
 label {
@@ -13,12 +8,9 @@ label {
     margin: 0;
     color: black;
 }
-/* .navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
+.navbar {
     border-bottom: 1px solid gray;
-}  */
+} 
 
 
 /* /Header */
@@ -31,11 +23,13 @@ label {
     height: 350px;
     background-color: #a80038;
 }
+
+
 .container_yo{
     padding: 25px;
     margin: 5px;
     color: whitesmoke;
-    position: absolute;
+    
     text-align: end;
 
 }
@@ -50,12 +44,11 @@ label {
 
 /*Yo*/
 .que{
-    text-align: center;
     border-bottom: 0.2em solid #373331;
     width: 18em;
 }
 
-.list-group-item {
+/* .list-group-item {
     position: relative;
     display: inline-table;
     padding: .75rem 1.25rem;
@@ -63,7 +56,7 @@ label {
     border: 1px solid rgba(0,0,0,.125);
     width: 31em;;
     height: 3em;
-}
+} */
 
 
 /* Footer */
