@@ -1,18 +1,10 @@
 body{
     font-family:'Sen', sans-serif;
 }
-
 /* Header */
-label {
-    display: inline-block;
-    margin: 0;
-    color: black;
-}
 .navbar {
     border-bottom: 1px solid gray;
 } 
-
-
 /* /Header */
 
 /*Yo*/
@@ -20,18 +12,14 @@ label {
     padding: 55px 0px 0px 0px;
     margin: 0;
     width: 100%;
-    height: 350px;
+    height: 360px;
     background-color: #a80038;
 }
-
-
 .container_yo{
     padding: 25px;
     margin: 5px;
     color: whitesmoke;
-    
     text-align: end;
-
 }
 .container_yo h1{
     color: white;
@@ -41,24 +29,12 @@ label {
     background-color: #a80038;
     border-color: white;
 }
-
 /*Yo*/
 .que{
     border-bottom: 0.2em solid #373331;
     width: 18em;
+    display: inline-block;
 }
-
-/* .list-group-item {
-    position: relative;
-    display: inline-table;
-    padding: .75rem 1.25rem;
-    background-color: #fff;
-    border: 1px solid rgba(0,0,0,.125);
-    width: 31em;;
-    height: 3em;
-} */
-
-
 /* Footer */
 #footer {
     background-color: #373331 !important;
@@ -67,3 +43,47 @@ label {
     color: white;
 }
 /* Footer */
+
+
+/*Cursos*/
+/*! CSS Used from: https://static.platzi.com/mf-landings/assets/home.697a1c5f5c7d765951ab.css */
+.NextReleases-list{display:grid;grid-template-columns:1fr;grid-gap:2em;grid-row-gap:.5em;}
+@media only screen and (min-width:48em){
+.NextReleases-list{grid-template-columns:1fr 1fr;}
+}
+@media only screen and (min-width:64em){
+.NextReleases-list{grid-template-columns:repeat(3,1fr);grid-gap:1.5em;grid-row-gap:.5em;}
+}
+.NextReleases-card{background-color:#fff;border-radius:4px;-webkit-box-shadow:0 2px 14px 0 rgba(0,0,0,.1);box-shadow:0 2px 14px 0 rgba(0,0,0,.1);border-left:4px solid #98ca3f;padding:8px 16px;font-size:12px;line-height:1.17;color:#4a4a4a;margin:0 0 8px;position:relative;cursor:pointer;}
+@media only screen and (min-width:48em){
+.NextReleases-card:nth-child(3){display:none;}
+}
+@media only screen and (min-width:64em){
+.NextReleases-card:nth-child(3){display:block;}
+}
+.NextReleases-card a{position:absolute;top:0;right:0;bottom:0;left:0;color:#fff;text-decoration:none;}
+.NextReleases-card-course{display:grid;grid-template-columns:24px auto;grid-gap:.5em;margin-bottom:8px;}
+.NextReleases-card-course h4{font-size:14px;font-weight:700;color:#273b47;-webkit-align-self:center;align-self:center;-ms-flex-item-align:center;}
+@media only screen and (min-width:48em){
+.NextReleases-card-course h4{font-size:16px;}
+}
+@media only screen and (min-width:64em){
+.NextReleases-card-course h4{font-size:18px;}
+}
+.NextReleases-card-course img{width:24px;}
+.NextReleases-card-launch{display:-webkit-box;display:-moz-box;display:-webkit-flex;display:-ms-flexbox;display:box;display:flex;}
+.NextReleases-card-launch span{font-size:12px;}
+@media only screen and (min-width:48em){
+.NextReleases-card-launch span{font-size:14px;}
+}
+.NextReleases-card-launch i{font-size:14px;margin:0 10px 0 6px;color:#98ca3f;}
+a{background-color:transparent;}
+img{border-style:none;}
+[class^=icon-]:before{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;font-family:icomoon;font-style:normal;font-variant:normal;font-weight:400;speak:none;text-transform:none;}
+[class^=icon-]{line-height:100%;}
+.icon-clock:before{content:"\e618";}
+*{margin:0;}
+a{color:#0791e6;}
+/*! CSS Used fontfaces */
+@font-face{font-family:icomoon;src:url(https://static.platzi.com/mf-landings/assets/icons-d25d25e0bb5d8e8aad1f32dcd7ae25c9.eot);src:url(https://static.platzi.com/mf-landings/assets/icons-d25d25e0bb5d8e8aad1f32dcd7ae25c9.eot#iefi9dtney) format("embedded-opentype"),url(https://static.platzi.com/mf-landings/assets/icons-e943149dc8a3aead112115662484e1b1.woff) format("woff"),url(https://static.platzi.com/mf-landings/assets/icons-c37436a96cebaa9e3654a8a6931a80e6.ttf) format("truetype"),url(https://static.platzi.com/mf-landings/assets/icons-5245370027577de7947c9a2d9e017ceb.svg#icons) format("svg");font-weight:400;font-style:normal;}
+/*Cursos*/
