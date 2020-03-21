@@ -42,6 +42,10 @@ body{
 #footer a {
     color: white;
 }
+.copy{
+    font-size: 0.8em;
+}
+
 /* Footer */
 
 
@@ -88,105 +92,3 @@ a{color:#0791e6;}
 @font-face{font-family:icomoon;src:url(https://static.platzi.com/mf-landings/assets/icons-d25d25e0bb5d8e8aad1f32dcd7ae25c9.eot);src:url(https://static.platzi.com/mf-landings/assets/icons-d25d25e0bb5d8e8aad1f32dcd7ae25c9.eot#iefi9dtney) format("embedded-opentype"),url(https://static.platzi.com/mf-landings/assets/icons-e943149dc8a3aead112115662484e1b1.woff) format("woff"),url(https://static.platzi.com/mf-landings/assets/icons-c37436a96cebaa9e3654a8a6931a80e6.ttf) format("truetype"),url(https://static.platzi.com/mf-landings/assets/icons-5245370027577de7947c9a2d9e017ceb.svg#icons) format("svg");font-weight:400;font-style:normal;}
 /*Cursos*/
 
-
-
-
-/*Footer*/
-/*! CSS Used from: https://z9t4u9f6.stackpathcdn.com/wp-content/themes/mdbootstrap4/css/compiled-4.14.1.min.css?ver=4.14.1 ; media=all */
-@media all{
-    *,*::before,*::after{box-sizing:border-box;}
-    footer{display:block;}
-    a{color:#007bff;text-decoration:none;background-color:transparent;}
-    a:hover{color:#0056b3;text-decoration:underline;}
-    a:not([href]){color:inherit;text-decoration:none;}
-    a:not([href]):hover{color:inherit;text-decoration:none;}
-    .container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;}
-    @media (min-width:576px){
-    .container{max-width:540px;}
-    }
-    @media (min-width:768px){
-    .container{max-width:720px;}
-    }
-    @media (min-width:992px){
-    .container{max-width:960px;}
-    }
-    @media (min-width:1200px){
-    .container{max-width:1140px;}
-    }
-    @media (min-width:576px){
-    .container{max-width:540px;}
-    }
-    @media (min-width:768px){
-    .container{max-width:720px;}
-    }
-    @media (min-width:992px){
-    .container{max-width:960px;}
-    }
-    @media (min-width:1200px){
-    .container{max-width:1140px;}
-    }
-    .row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;}
-    .col-md-12{position:relative;width:100%;padding-right:15px;padding-left:15px;}
-    @media (min-width:768px){
-    .col-md-12{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;}
-    }
-    .mr-3{margin-right:1rem!important;}
-    .mb-5{margin-bottom:3rem!important;}
-    .py-3{padding-top:1rem!important;}
-    .py-3{padding-bottom:1rem!important;}
-    .py-5{padding-top:3rem!important;}
-    .py-5{padding-bottom:3rem!important;}
-    @media (min-width:768px){
-    .mr-md-5{margin-right:3rem!important;}
-    }
-    .text-center{text-align:center!important;}
-    @media print{
-    *,*::before,*::after{text-shadow:none!important;box-shadow:none!important;}
-    a:not(.btn){text-decoration:underline;}
-    .container{min-width:992px!important;}
-    }
-    .documentation footer{padding-left:0;}
-    .fab{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1;}
-    .fa-lg{font-size:1.33333em;line-height:.75em;vertical-align:-.0667em;}
-    .fa-2x{font-size:2em;}
-    .fa-facebook-f:before{content:"\f39e";}
-    .fa-google-plus-g:before{content:"\f0d5";}
-    .fa-instagram:before{content:"\f16d";}
-    .fa-linkedin-in:before{content:"\f0e1";}
-    .fa-pinterest:before{content:"\f0d2";}
-    .fa-twitter:before{content:"\f099";}
-    .fab{font-family:"Font Awesome 5 Brands";}
-    .cyan{background-color:#00bcd4!important;}
-    .cyan.darken-3{background-color:#00838f!important;}
-    .white-text{color:#fff!important;}
-    :disabled{pointer-events:none!important;}
-    a{color:#007bff;text-decoration:none;cursor:pointer;-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out;}
-    a:hover{color:#0056b3;text-decoration:none;-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out;}
-    a:disabled:hover{color:#007bff;}
-    a:not([href]):not([tabindex]),a:not([href]):not([tabindex]):focus,a:not([href]):not([tabindex]):hover{color:inherit;text-decoration:none;}
-    .flex-center{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;height:100%;}
-    .font-small{font-size:.9rem;}
-    footer.page-footer{bottom:0;color:#fff;}
-    footer.page-footer .footer-copyright{overflow:hidden;color:rgba(255,255,255,0.6);background-color:rgba(0,0,0,0.2);}
-    footer.page-footer a{color:#fff;}
-    .fb-ic{color:#3b5998!important;}
-    .fb-ic:hover,.fb-ic:focus{color:#3b5998;}
-    .tw-ic{color:#55acee!important;}
-    .tw-ic:hover,.tw-ic:focus{color:#55acee;}
-    .gplus-ic{color:#dd4b39!important;}
-    .gplus-ic:hover,.gplus-ic:focus{color:#dd4b39;}
-    .li-ic{color:#0082ca!important;}
-    .li-ic:hover,.li-ic:focus{color:#0082ca;}
-    .pin-ic{color:#c61118!important;}
-    .pin-ic:hover,.pin-ic:focus{color:#c61118;}
-    .ins-ic{color:#2e5e86!important;}
-    .ins-ic:hover,.ins-ic:focus{color:#2e5e86;}
-    .fixed-sn footer{padding-left:15rem;}
-    @media (max-width:1440px){
-    .fixed-sn footer{padding-left:0;}
-    }
-    .documentation footer{padding-left:0;}
-    .documentation footer{padding-left:0;}
-    }
-    /*! CSS Used fontfaces */
-    @font-face{font-family:"Font Awesome 5 Brands";font-style:normal;font-weight:normal;font-display:auto;src:url(https://z9t4u9f6.stackpathcdn.com/wp-content/themes/mdbootstrap4/font/fa5/fa-brands-400.eot);src:url(https://z9t4u9f6.stackpathcdn.com/wp-content/themes/mdbootstrap4/font/fa5/fa-brands-400.eot#iefix) format("embedded-opentype"),url(https://z9t4u9f6.stackpathcdn.com/wp-content/themes/mdbootstrap4/font/fa5/fa-brands-400.woff2) format("woff2"),url(https://z9t4u9f6.stackpathcdn.com/wp-content/themes/mdbootstrap4/font/fa5/fa-brands-400.woff) format("woff"),url(https://z9t4u9f6.stackpathcdn.com/wp-content/themes/mdbootstrap4/font/fa5/fa-brands-400.ttf) format("truetype"),url(https://z9t4u9f6.stackpathcdn.com/wp-content/themes/mdbootstrap4/font/fa5/fa-brands-400.svg#fontawesome) format("svg");}
