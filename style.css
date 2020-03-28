@@ -11,10 +11,9 @@ body {
 	background-color: #007bff;
 }
 .container_yo {
-	padding: 25px;
-	margin: 5px;
+	padding: 15px;
 	color: whitesmoke;
-	text-align: end;
+	text-align: center;
 }
 .container_yo h1 {
 	color: white;
