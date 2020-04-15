@@ -180,15 +180,12 @@ a {
 /*! CSS Used fontfaces */
 @font-face {
 	font-family: icomoon;
-	src: url(https://static.platzi.com/mf-landings/assets/icons-d25d25e0bb5d8e8aad1f32dcd7ae25c9.eot);
 	src: url(https://static.platzi.com/mf-landings/assets/icons-d25d25e0bb5d8e8aad1f32dcd7ae25c9.eot#iefi9dtney)
 			format("embedded-opentype"),
 		url(https://static.platzi.com/mf-landings/assets/icons-e943149dc8a3aead112115662484e1b1.woff)
 			format("woff"),
 		url(https://static.platzi.com/mf-landings/assets/icons-c37436a96cebaa9e3654a8a6931a80e6.ttf)
-			format("truetype"),
-		url(https://static.platzi.com/mf-landings/assets/icons-5245370027577de7947c9a2d9e017ceb.svg#icons)
-			format("svg");
+			format("truetype");
 	font-weight: 400;
 	font-style: normal;
 }
@@ -201,13 +198,6 @@ a {
 	background-color: white;
 	padding: 2em;
 }
-.textos {
-	color: white;
-	height: 75%;
-	border: 2px solid black;
-	padding: 1.5em;
-}
-
 /* Sombras de los cards de los videos */
 
 .sombra {
